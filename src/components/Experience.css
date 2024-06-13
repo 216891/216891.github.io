@@ -1,0 +1,73 @@
+.experience {
+  padding: 20px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: transform 0.2s;
+}
+
+.experience-item:hover {
+  transform: scale(1.05);
+}
+
+.experience-item img.company-logo {
+  max-width: 100px; /* Adjust the max width as needed */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.experience-item h3 {
+  margin: 10px 0;
+}
+
+.experience-item h4 {
+  margin: 5px 0;
+  color: #555;
+}
+
+.experience-item p {
+  margin: 10px 0;
+}
+
+.experience-item button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.experience-item button:hover {
+  background-color: #0056b3;
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
